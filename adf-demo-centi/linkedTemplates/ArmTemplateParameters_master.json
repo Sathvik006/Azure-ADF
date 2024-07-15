@@ -8,6 +8,9 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"dataflow_trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/44e23359-6930-47c0-951e-94da06c6a1c5/resourceGroups/demo-grp/providers/Microsoft.Storage/storageAccounts/democenti"
+		},
 		"containerUri": {
 			"value": ""
 		},

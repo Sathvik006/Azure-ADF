@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
+		"dataflow_trigger_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/44e23359-6930-47c0-951e-94da06c6a1c5/resourceGroups/demo-grp/providers/Microsoft.Storage/storageAccounts/democenti"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +44,9 @@
 					},
 					"AzureBlobStorage1_connectionString": {
 						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					},
+					"dataflow_trigger_properties_typeProperties_scope": {
+						"value": "[parameters('dataflow_trigger_properties_typeProperties_scope')]"
 					}
 				}
 			},
