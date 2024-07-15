@@ -1,0 +1,18 @@
+{
+	"name": "dataflow_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/democontainer/blobs/Dataflow",
+			"blobPathEndsWith": "customer.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/44e23359-6930-47c0-951e-94da06c6a1c5/resourceGroups/demo-grp/providers/Microsoft.Storage/storageAccounts/democenti",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
