@@ -1,0 +1,9 @@
+{
+	"name": "adf-demo-centi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e2161c0-f364-4b2c-b5a2-2589d9256bcb",
+		"tenantId": "7cd432b2-5751-4a78-a889-a4be1e30c670"
+	}
+}
