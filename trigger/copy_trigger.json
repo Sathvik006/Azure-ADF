@@ -1,0 +1,27 @@
+{
+	"name": "copy_trigger",
+	"properties": {
+		"annotations": [
+			"ETL-Copy"
+		],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2024-07-14T08:30:00",
+				"endTime": "2024-07-15T10:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
